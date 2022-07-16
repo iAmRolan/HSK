@@ -1,0 +1,1056 @@
+id: WuV7IscLZkCdfDcSlHLPvg
+projectId: SIisNtB1gka5IyVJR5KEJQ
+projectName: משרד החינוך
+created: 2022-07-06T12:02:41.5771762Z
+owner: Rolan Abdualiev
+protocol: 1
+tests:
+- id: --oagDty9Uyb-YqzE47PIQ
+  name: שאילתתה הצגת נתונים לפי מחוז/ארצי
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-31T13:36:19.0000000
+  modificationDate: 2022-05-31T14:03:59.0000000
+  settings:
+    automationAssistant: true
+    appId: LS-IrTetXEa6NYhO0IQbDQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: LS-IrTetXEa6NYhO0IQbDQ
+    name: HSK
+    url: http://itest20121/Hsk
+    platform: Web
+  steps:
+  - id: b7whDs-3S0qkEVABbw3_Uw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Test
+    targetTestId: MfnsbHHQaEqm0o2TkOsftA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tY_N7E04AE6OowlZKFllcQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: fbkm_T2uA0yY7b16NXvf3A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 631118c0-4828-42c8-aa69-0e6107d5956d
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: L5SDHaPnbEC9pavTVS5YAA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 3ZbqaINYjU-Fns6FdtK1WQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MFwvqsKdqUGyYoQT3q0Pcg
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Test
+    targetTestId: udF7YgDbUU6sQJfD0we5iA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: Teler_Name
+      value: '{{Teler_Name}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Zz8gMjH1jE-VMjTn88K4Rg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: yWBzfABW7UiNBPeiMKHvjQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: STQJuVW7KEOD9M1C9vlC8w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: yMUzzmJJtEWqHjyOZieHnQ
+      source: Store
+      addonId: hV6EGxIFTkCyZlxUpWd6tg
+    parameterMaps:
+    - name: pathOfLastDownloadedFile
+      value: '{{File_Path}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: __N7-cqO6EyR6qaolh9MEg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 9YCuLlS0Xkeji7G17S_yxg
+      source: Store
+      addonId: O8dvNEcjpU-7-M1AcxRLLQ
+    parameterMaps:
+    - name: filePath
+      value: '{{File_Path}}'
+      direction: Input
+    - name: pdfContent
+      value: '{{PDF_Content}}'
+      direction: Output
+    - name: pageNumber
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Ok3a6JxQpkKGYj3tFMgZoA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: jU6YX33qtUygqW8mRIUiOw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8XMZol6uh0edcy8anJL3Ww
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: yMUzzmJJtEWqHjyOZieHnQ
+      source: Store
+      addonId: hV6EGxIFTkCyZlxUpWd6tg
+    parameterMaps:
+    - name: pathOfLastDownloadedFile
+      value: '{{File_Path}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: koNTupSOPkeAfl7zOaLvnA
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Test
+    targetTestId: LED1099C_k2d95RRSrgo7A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: Shem_Mahoz
+      value: '{{Shem_Mahoz}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: aEg-jppdNEKmBBZa_EaB2g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: yWBzfABW7UiNBPeiMKHvjQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: B91OKccewUmrRvhdYdfJCQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: yMUzzmJJtEWqHjyOZieHnQ
+      source: Store
+      addonId: hV6EGxIFTkCyZlxUpWd6tg
+    parameterMaps:
+    - name: pathOfLastDownloadedFile
+      value: '{{File_Path}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Iv20y-LaAU6_hvwo5vn2Jg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 9YCuLlS0Xkeji7G17S_yxg
+      source: Store
+      addonId: O8dvNEcjpU-7-M1AcxRLLQ
+    parameterMaps:
+    - name: filePath
+      value: '{{File_Path}}'
+      direction: Input
+    - name: pdfContent
+      value: '{{PDF_Content}}'
+      direction: Output
+    - name: pageNumber
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rhRJ4R5E1U26l2KgwTvE_g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: jU6YX33qtUygqW8mRIUiOw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -57rfavmZEOOS01oPoTWiw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: yMUzzmJJtEWqHjyOZieHnQ
+      source: Store
+      addonId: hV6EGxIFTkCyZlxUpWd6tg
+    parameterMaps:
+    - name: pathOfLastDownloadedFile
+      value: '{{File_Path}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: http://itest20121/Hsk
+    type: Input
+  - name: Teler_Name
+    description: ''
+    value: ''
+    type: Input
+  - name: File_Path
+    description: ''
+    value: ''
+    type: Output
+  - name: PDF_Content
+    description: ''
+    value: ''
+    type: Output
+  - name: Shem_Mahoz
+    description: ''
+    value: ''
+    type: Input
+auxTests:
+- id: MfnsbHHQaEqm0o2TkOsftA
+  name: מסך ראשי - מעבר לשאילתות
+  description: This test was auto generated from steps of the 'שאילתת הצגת סוגי העדרות' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-05-29T12:23:25.0000000
+  modificationDate: 2022-05-29T12:24:53.0000000
+  settings:
+    automationAssistant: true
+    appId: LS-IrTetXEa6NYhO0IQbDQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: wSBqsUv5PEyKRGSZ7OTG-w
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: 25000
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _rwJE_zFVkq3ze1tcr9Jww
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: B3bv6sUP30SVGISVHQNEkw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 631118c0-4828-42c8-aa69-0e6107d5956d
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fPL2WA7W10m87jRgkAXSLw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: M9-GzhiUYU-J3C9IRKMQRQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 631118c0-4828-42c8-aa69-0e6107d5956d
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: http://itest20121/Hsk
+    type: Input
+- id: udF7YgDbUU6sQJfD0we5iA
+  name: פס איתור -הצגת נתונים לפי מחוזי/ארצי (טלר)
+  description: This test was auto generated from steps of the 'שאילתתה הצגת נתונים לפי מחוז/ארצי' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-05-31T13:50:31.0000000
+  modificationDate: 2022-05-31T13:54:59.0000000
+  settings:
+    automationAssistant: true
+    appId: LS-IrTetXEa6NYhO0IQbDQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: 5JC7FF9ZOU6NMQ-aVndUYw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: o6jWk8rSZk2DInfUE-3i-A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: A1b40LEKR0eIvea_B2GCEQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: JLzCOJuMlkG31mzuXHd8Bg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kJKqMzezZ0qYAFWQ483nbg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 05D3D9wJM0e4aNiT26sHJw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HULMGRYa5UqnKd0hXjyHKg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Addon
+    elementId: 05D3D9wJM0e4aNiT26sHJw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a_qR0quDX02wCi-IIE899g
+      source: Store
+      addonId: Ow3LGSkBqUyGjzyAibUJig
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7tTIAPTTsE-Met20jPiofw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: v11eQkIOzE6_F3x0dxQ7Ww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{Teler_Name}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kAfvoX81TUKQ2rhukT1NlA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 928bf14e-7a56-4371-b92a-9cb9de53f632
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ENTER
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Ma00sv623EW_TBqhEIoJpA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Addon
+    elementId: BLOsa-JshkS4jlZzSUAkng
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 4a20prZwgUy2pDLkUu_7XQ
+      source: Store
+      addonId: Ow3LGSkBqUyGjzyAibUJig
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: B1iBjCnfk0KrmObeIcPMdQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: eYWS4-CWTU-6EWCNrAC-oA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: text
+      value: '{{Teler_Name}}'
+    contexts: []
+  parameters:
+  - name: Teler_Name
+    description: ''
+    value: ''
+    type: Input
+- id: LED1099C_k2d95RRSrgo7A
+  name: פס איתור - הצגת נתונים לפי מחוזי/ארצי (מחוז)
+  description: This test was auto generated from steps of the 'שאילתתה הצגת נתונים לפי מחוז/ארצי' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-05-31T14:00:40.0000000
+  modificationDate: 2022-05-31T14:00:40.0000000
+  settings:
+    automationAssistant: true
+    appId: LS-IrTetXEa6NYhO0IQbDQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: oRLy4sfUaEm-bBIXTziugw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: MM8x6yCY-0uBR6MXT9AQ2w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uNNewRcZo0m-qEZTdjSyjw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    elementId: _B1fIgXBdEWqkUUvtt18kg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: kAy2y3oDuU-OD1ipMDiRPw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: value
+      value: '{{Shem_Mahoz}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: iTWd9wMOK0-c3aKQrFPpZQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: mYBQr4sFqkGzFQUF6LFIeA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VSQPRkrYCEGHPMhgfR7Byw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 83BEjhVCcUawi2VQUbnbAw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: Shem_Mahoz
+    description: ''
+    value: ''
+    type: Input
+elements:
+- id: B3bv6sUP30SVGISVHQNEkw
+  name: 'לשונית היעדרויות '
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //span[. = '
+      					היעדרויות']
+    priority: 0
+  - name: XPATH
+    value: //div/ul/li[4]/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/form/div[3]/div[1]/div[4]/div[1]/div[2]/div/ul/li[4]/span
+    priority: 2
+- id: M9-GzhiUYU-J3C9IRKMQRQ
+  name: שאילתות
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //li[4]//span[. = '
+      							שאילתות']
+    priority: 0
+  - name: XPATH
+    value: //li[4]/ul/li/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/form/div[3]/div[1]/div[4]/div[1]/div[2]/div/ul/li[4]/ul/li[2]/span
+    priority: 2
+- id: 05D3D9wJM0e4aNiT26sHJw
+  name: 'iFrame - חלון איתור '
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //iframe[@id='ifrmPopModal']
+    priority: 0
+- id: yWBzfABW7UiNBPeiMKHvjQ
+  name: כפתור הצגה לפני הדפסה
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@id='ctl00_Main_btnOpenReport']
+    priority: 0
+- id: jU6YX33qtUygqW8mRIUiOw
+  name: פתיחת דוח אקסל
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@id='ctl00_Main_btnOpenExcel']
+    priority: 0
+- id: fbkm_T2uA0yY7b16NXvf3A
+  name: הצגת נתוני היעדרות כללית
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[contains(text(), 'הצגת נתוני היעדרות כללית')]
+    priority: 0
+- id: mYBQr4sFqkGzFQUF6LFIeA
+  name: 'קטגרויות '
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@id='ctl00_Main_cboCatHeadrut_MultiSelect_mltDropDown']
+    priority: 0
+- id: 83BEjhVCcUawi2VQUbnbAw
+  name: קטגוריות - הוסף הכל
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@value='הוסף הכל']
+    priority: 0
+- id: 3ZbqaINYjU-Fns6FdtK1WQ
+  name: הצגת נתונים לפי מחוזי/ארצי
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[@href="/Hsk/HskRepHeadrutClali.aspx?HA=true"]
+    priority: 0
+- id: o6jWk8rSZk2DInfUE-3i-A
+  name: בחירת לשונית טלר
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[.='טלר']
+    priority: 0
+- id: JLzCOJuMlkG31mzuXHd8Bg
+  name: איתור טלר
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //img[@id='ctl00_Main_cmdIturTeler']
+    priority: 0
+- id: v11eQkIOzE6_F3x0dxQ7Ww
+  name: הזנת שם טלר
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@id='ctl00_Main_txtTeler']
+    priority: 0
+- id: BLOsa-JshkS4jlZzSUAkng
+  name: בחירת טלר
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //td[.='{{Teler_Name}}']
+    priority: 0
+- id: eYWS4-CWTU-6EWCNrAC-oA
+  name: שם טלר
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[@id='ctl00_Main_lblShemTeller']
+    priority: 0
+- id: MM8x6yCY-0uBR6MXT9AQ2w
+  name: בחירת לשונית מחוז
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[.='מחוז']
+    priority: 0
+- id: _B1fIgXBdEWqkUUvtt18kg
+  name: בחירת מחוז
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //select[@id='ctl00_Main_cboMachoz']
+    priority: 0
+projectParameters: []
+addons:
+- id: O8dvNEcjpU-7-M1AcxRLLQ
+  source: Store
+  version: 0.4
+  actions:
+  - id: 9YCuLlS0Xkeji7G17S_yxg
+    name: PDF Reader
+    description: Read the text content of a PDF file
+    className: io.testproject.PDFReadAction
+  minSdkLevel: 2
+  minSdkVersion: 0.61.0
+  sdkGeneration: 1
+  language: Java
+  hash: 33B06B5F4F1B2BA6A9B3A52EA1B8A36DAB2D631FE32BEB119A45B1668DFBD0C9
+- id: hV6EGxIFTkCyZlxUpWd6tg
+  source: Store
+  version: 1.5
+  actions:
+  - id: yMUzzmJJtEWqHjyOZieHnQ
+    name: Get path of latest downloaded file
+    description: Returns the path of the latest downloaded file
+    className: io.testproject.addons.general.GetPathOfLastDownloadedFile
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 79B58FC6B198CC1D48AB3AFD7B863B1F376F94ED9671102578157B690ABC68F2
+- id: Ow3LGSkBqUyGjzyAibUJig
+  source: Store
+  version: 2.8
+  actions:
+  - id: a_qR0quDX02wCi-IIE899g
+    name: Switch to iFrame
+    description: Run Switch to iFrame
+    className: io.testproject.addons.element.web.SwitchToFrame
+  - id: 4a20prZwgUy2pDLkUu_7XQ
+    name: Double Click
+    description: Double Click {{element}}
+    className: io.testproject.addons.element.web.DoubleClickNoJs
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: A589F45A9AC2C9F57FF6444BC6E9504C2F17FD5054E39E6066665079B054FAB2
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.1.9
+  actions:
+  - id: kAy2y3oDuU-OD1ipMDiRPw
+    name: Select options by text
+    description: Select options in {{element}} with text {{text}}
+    className: io.testproject.addons.web.element.select.SelectOptionbyVisibleText
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D

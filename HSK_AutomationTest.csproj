@@ -1,0 +1,101 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TestProject.OpenSDK" Version="1.2.4" />
+    <PackageReference Include="TestProject.SDK" Version="[0.65,0.66)" Publish="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TestProject.Addons.Proxy.StringUtils">
+      <HintPath>./Addons/String-Utils.proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="File-Uploader.proxy">
+      <HintPath>Addons\File-Uploader.proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Visible-Elements-Operations.proxy">
+      <HintPath>Addons\Visible-Elements-Operations.proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Element-Extensions.proxy">
+      <HintPath>Addons\Element-Extensions.proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Web-List-Operations.proxy">
+      <HintPath>Addons\Web-List-Operations.proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Web-Extensions.proxy">
+      <HintPath>Addons\Web-Extensions.proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Generic-Extensions.proxy">
+      <HintPath>Addons\Generic-Extensions.proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Mathematical-Utilities.proxy">
+      <HintPath>Addons\Mathematical-Utilities.proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="PDF-Actions.proxy">
+      <HintPath>Addons\PDF-Actions.proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="JSON-Operations.proxy">
+      <HintPath>Addons\JSON-Operations.proxy.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="File-Upload.proxy" />
+    <None Remove="File-Uploader.proxy" />
+    <None Remove="Visible-Elements-Operations.proxy" />
+    <None Remove="Tests\" />
+    <None Remove="Infrastructure\" />
+    <None Remove="Infrastructure\Pages\" />
+    <None Remove="Infrastructure\BusinessFunctions\" />
+    <None Remove="Tests\Queries\" />
+    <None Remove="Tests\Management\" />
+    <None Remove="Element-Extensions.proxy" />
+    <None Remove="Web-List-Operations.proxy" />
+    <None Remove="Web-Extensions.proxy" />
+    <None Remove="Generic-Extensions.proxy" />
+    <None Remove="Mathematical-Utilities.proxy" />
+    <None Remove="PDF-Actions.proxy" />
+    <None Remove="Tests\Queries\Yamels\" />
+    <None Remove="JSON-Operations.proxy" />
+    <None Remove="Tests\Management\Cancel Transactions\" />
+    <None Remove="Tests\Management\Cancel Transactions\Yamels\" />
+    <None Remove="TestMapping.xlsx" />
+    <None Remove="Tests\Management\AdditionAbsences\" />
+    <None Remove="Tests\Management\AdditionAbsences\Yamels\" />
+    <None Remove="Tests\Management\ChangeAbsenses\" />
+    <None Remove="Tests\Management\ChangeAbsenses\Yamels\" />
+    <None Remove="Tests\Management\PrintLetter\" />
+    <None Remove="Tests\Management\PrintLetter\Yamels\" />
+    <None Remove="Tests\Management\SocialSecurity\" />
+    <None Remove="Tests\Management\SocialSecurity\Yamels\" />
+  </ItemGroup>
+  <ItemGroup>
+<None Update="Addons\String-Utils.proxy.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Tests\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Infrastructure\Pages\" />
+    <Folder Include="Infrastructure\BusinessFunctions\" />
+    <Folder Include="Tests\Queries\" />
+    <Folder Include="Tests\Management\" />
+    <Folder Include="Tests\Queries\Yamels\" />
+    <Folder Include="Tests\Management\CancelTransactions\" />
+    <Folder Include="Tests\Management\CancelTransactions\Yamels\" />
+    <Folder Include="Tests\Management\AdditionAbsences\" />
+    <Folder Include="Tests\Management\AdditionAbsences\Yamels\" />
+    <Folder Include="Tests\Management\ChangeAbsenses\" />
+    <Folder Include="Tests\Management\ChangeAbsenses\Yamels\" />
+    <Folder Include="Tests\Management\PrintLetter\" />
+    <Folder Include="Tests\Management\PrintLetter\Yamels\" />
+    <Folder Include="Tests\Management\SocialSecurity\" />
+    <Folder Include="Tests\Management\SocialSecurity\Yamels\" />
+  </ItemGroup>
+</Project>

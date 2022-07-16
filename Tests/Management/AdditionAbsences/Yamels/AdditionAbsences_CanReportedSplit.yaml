@@ -1,0 +1,1991 @@
+id: 0RFIfYUD_UCTUw-8gxCe6Q
+projectId: SIisNtB1gka5IyVJR5KEJQ
+projectName: משרד החינוך
+created: 2022-07-06T11:53:12.0846133Z
+owner: Rolan Abdualiev
+protocol: 1
+tests:
+- id: wJR0AuPOCEqbd5JKMIRJZg
+  name: הוספת היעדרות - ( לא ניתן לדווח בעתיד + פיצול)
+  description: היעדרויות עם פיצול
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-10T13:17:25.0000000
+  modificationDate: 2022-05-25T13:06:43.0000000
+  settings:
+    automationAssistant: true
+    appId: LS-IrTetXEa6NYhO0IQbDQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: LS-IrTetXEa6NYhO0IQbDQ
+    name: HSK
+    url: http://itest20121/Hsk
+    platform: Web
+  steps:
+  - id: ULS-iO_yp0qlPW19PLyeMA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Test
+    targetTestId: 49v_kZv4nkK8ajzeciEo-Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    - name: Semel_Mosad
+      value: '{{Semel_Mosad}}'
+      direction: Input
+    - name: Mispar_Zehut
+      value: '{{Mispar_Zehut}}'
+      direction: Input
+    - name: Ad_Taarich
+      value: '{{Ad_Taarich}}'
+      direction: Input
+    - name: Me_Taarich
+      value: '{{Me_Taarich}}'
+      direction: Input
+    - name: Sug_Headrut
+      value: '{{Sug_Headrut}}'
+      direction: Input
+    - name: Shem_Headrut
+      value: '{{Shem_Headrut}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Mk3Vs2-IcUSa8a71QW7jAA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Test
+    targetTestId: Zs6DJTiu9UG_lnTQtSe5vQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    - name: Sug_Headrut
+      value: '{{Sug_Headrut}}'
+      direction: Input
+    - name: Category
+      value: '{{Category}}'
+      direction: Input
+    - name: Me_Taarich
+      value: '{{Me_Taarich}}'
+      direction: Input
+    - name: Ad_Taarich
+      value: '{{Ad_Taarich}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _QXfx0sbz0KAu2iEOQJN5A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 1lyvVPmLmEWuAvDjicDpuw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: onxfjIdDQk6TAp6cv44dfw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: YWaJ5UUbQ02VXtywfz0SEw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Always
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: cjuJIrpw60KviTTeprIPYQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: nxfaRhEu2EejAClrGuFUGQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qGXlio16m0-4WV3ArutqQw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: qOjcjOFBeUaq0S8jmUuiAg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0PwHKJ3_uEuoFWmzk-UZ1A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: UGXhP7g6Rk-qE_XRN9yzlA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7NpwBd8xok6oavBxDhw2CA
+    comments: ''
+    enabled: false
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: 1lyvVPmLmEWuAvDjicDpuw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3CQA7t-UyUut6U8OgZW-Hg
+    comments: ''
+    enabled: false
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: q3Cq56PUS0OoX_xsiHFd2Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Continue
+      takeScreenshotConditionType: Always
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: יש להזין לסוג היעדרות זה שעות ליום
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MVKG4Z1fc0mOMNTbxP65HQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: -RyXyMoo4kygAR9wldZUGw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{Shaot_Pitzul}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: sLywt_k9m02TU1URnycRtg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: ipKj54lWx0S-4dAMWuRhPA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: moRi1mJmdkibzqI8QmGdVQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: 1lyvVPmLmEWuAvDjicDpuw
+    settings:
+      sleepTime: -1
+      timeout: 25000
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7ueY6BYsw06cPr37xaml8Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: jx6s4F4uH0CfuwohjqZPJA
+      source: Store
+      addonId: 7cBKEqWpmkC1PL0WhvQOzQ
+    parameterMaps:
+    - name: host
+      value: '[[Database_Host]]'
+      direction: Input
+    - name: port
+      value: ''
+      direction: Input
+    - name: username
+      value: '[[Database_User_Name]]'
+      direction: Input
+    - name: password
+      value: '[[Database_Password]]'
+      direction: Input
+    - name: query
+      value: "SELECT \r\n        STATUS, MISPAR_HEADRUT\r\nFROM \r\n        HSK_OWNER.HSK_HEADRUT \r\nWHERE\r\n        MISPAR_ZEHUT = '{{Mispar_Zehut}}' AND SUG_HEADRUT = '{{Sug_Headrut}}' ORDER BY TAARICH_IDKUN DESC "
+      direction: Input
+    - name: queryResponse
+      value: '{{QueryResult}}'
+      direction: Output
+    - name: SID
+      value: '[[Database_SID]]'
+      direction: Input
+    - name: Service
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: yWTRmpZCBUqhUaw86dgRIg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: W4_VJE6pXEOqalj9R_9PWw
+      source: Store
+      addonId: 0vl75E0Mr0G5TRI1xxul-w
+    parameterMaps:
+    - name: jsonFile
+      value: '{{QueryResult}}'
+      direction: Input
+    - name: jsonPath
+      value: STATUS
+      direction: Input
+    - name: result
+      value: ''
+      direction: Output
+    - name: setJsonObject
+      value: ''
+      direction: Input
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: result
+      value: 3
+    contexts: []
+  - id: S-khx5JPOkWjEPMQHtN1rA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Test
+    targetTestId: nH4lACJeBUCNqWdgx1I0og
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    - name: Sug_Headrut
+      value: '{{Sug_Headrut}}'
+      direction: Input
+    - name: Semel_Mosad
+      value: '{{Semel_Mosad}}'
+      direction: Input
+    - name: Mispar_Zehut
+      value: '{{Mispar_Zehut}}'
+      direction: Input
+    - name: Ad_Taarich
+      value: '{{Ad_Taarich}}'
+      direction: Input
+    - name: Me_Taarich
+      value: '{{Me_Taarich}}'
+      direction: Input
+    - name: Shem_Headrut
+      value: '{{Shem_Headrut}}'
+      direction: Input
+    - name: MISPAR_HEADRUT
+      value: '{{MISPAR_HEADRUT}}'
+      direction: Input
+    - name: NewQueryResult
+      value: '{{NewQueryResult}}'
+      direction: Input
+    - name: Shaot_Pitzul
+      value: '{{Shaot_Pitzul}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: http://itest20121/Hsk
+    type: Input
+  - name: Semel_Mosad
+    description: ''
+    value: ''
+    type: Input
+  - name: Mispar_Zehut
+    description: ''
+    value: ''
+    type: Input
+  - name: Ad_Taarich
+    description: ''
+    value: ''
+    type: Input
+  - name: Me_Taarich
+    description: ''
+    value: ''
+    type: Input
+  - name: Sug_Headrut
+    description: ''
+    value: ''
+    type: Input
+  - name: Shem_Headrut
+    description: ''
+    value: ''
+    type: Input
+  - name: Shaot_Pitzul
+    description: ''
+    value: ''
+    type: Input
+  - name: Category
+    description: ''
+    value: ''
+    type: Input
+  - name: QueryResult
+    description: ''
+    value: ''
+    type: Input
+  - name: MISPAR_HEADRUT
+    description: ''
+    value: ''
+    type: Input
+  - name: NewQueryResult
+    description: ''
+    value: ''
+    type: Input
+  tags:
+  - HSK
+auxTests:
+- id: 49v_kZv4nkK8ajzeciEo-Q
+  name: POM - מסך ניהול
+  description: תהליך כללי - הזנת פרטי עו"ה
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-09T07:00:06.0000000
+  modificationDate: 2022-05-10T13:39:00.0000000
+  settings:
+    automationAssistant: true
+    appId: LS-IrTetXEa6NYhO0IQbDQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: 9tmVRJcqJUuXcd2ALeLQig
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Test
+    targetTestId: wMz0xJ3Rz0WnranVo91b7Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: http://itest20121/Hsk
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: APpqiJ73x0CcNBPXH-nb4g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: KBDM28G1wUOQrKqWOASZoQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZUSzRYZ7SEeAv9e7Dc7yuA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: KBDM28G1wUOQrKqWOASZoQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{Semel_Mosad}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: CAIpf3D7YECA920dIzPSmg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 5gZ2vPifnUKTrJEcl73JDg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: f7TbywBu3Uqp2oK5qK8ldA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: QGweViXJEkG2wEUINCA8aw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VYsl_F57ekewp07qWBjjtA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: QGweViXJEkG2wEUINCA8aw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{Mispar_Zehut}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uRxaLlArs0WCvQ0M8g1S0Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: 5gZ2vPifnUKTrJEcl73JDg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: http://itest20121/Hsk
+    type: Input
+  - name: Semel_Mosad
+    description: ''
+    value: ''
+    type: Input
+  - name: Mispar_Zehut
+    description: ''
+    value: ''
+    type: Input
+  - name: Ad_Taarich
+    description: ''
+    value: ''
+    type: Input
+  - name: Me_Taarich
+    description: ''
+    value: ''
+    type: Input
+  - name: Sug_Headrut
+    description: ''
+    value: ''
+    type: Input
+  - name: Shem_Headrut
+    description: ''
+    value: ''
+    type: Input
+  - name: Shaot_Pitzul
+    description: ''
+    value: ''
+    type: Input
+  tags:
+  - HSK
+- id: nH4lACJeBUCNqWdgx1I0og
+  name: מחיקת היעדרות אחרי הוספה
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-10T09:41:00.0000000
+  modificationDate: 2022-06-09T10:42:57.0000000
+  settings:
+    automationAssistant: true
+    appId: LS-IrTetXEa6NYhO0IQbDQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: nNdr26vBXkmIKqmYH8Ri0g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Test
+    targetTestId: 49v_kZv4nkK8ajzeciEo-Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    - name: Semel_Mosad
+      value: '{{Semel_Mosad}}'
+      direction: Input
+    - name: Mispar_Zehut
+      value: '{{Mispar_Zehut}}'
+      direction: Input
+    - name: Ad_Taarich
+      value: '{{Ad_Taarich}}'
+      direction: Input
+    - name: Me_Taarich
+      value: '{{Me_Taarich}}'
+      direction: Input
+    - name: Sug_Headrut
+      value: '{{Sug_Headrut}}'
+      direction: Input
+    - name: Shem_Headrut
+      value: '{{Shem_Headrut}}'
+      direction: Input
+    - name: Shaot_Pitzul
+      value: '{{Shaot_Pitzul}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0sJLP--5ck2qJ_zEZaf14w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: EUHgj9SYzkGvqEETEHwEDw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uwfVR6J88kOiR0pdftzXSw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Addon
+    elementId: rX9Ad3H5YkmjTBxDrV1YcA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: tlxDTzMxe0eErx2PMkql2g
+      source: Store
+      addonId: m9XGecbZqU62EXYlC04AOQ
+    parameterMaps:
+    - name: numberOfScrolls
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ydxfzEw0v0-WgzP_WTm6eA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: zJ_o-uMPWE-BrXOA6Knt8g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GYK22VsEqU6HGby4JZOydg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: bqhSBjDJekiPVtEfYrj_7Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fWNB9x1VG0-WVhFWmH7NJw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: VKqZ-9woW02gCZI2iJMU5A
+    settings:
+      sleepTime: 1000
+      timeout: 25000
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JMYiOMqzR0mUAUYPMmxFsQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: q3Cq56PUS0OoX_xsiHFd2Q
+    settings:
+      sleepTime: 1000
+      timeout: 25000
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[Warning_Msg_Idkun]]'
+      direction: Output
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: text
+      value: '[[ExpectedMessage]]'
+    contexts: []
+  - id: 0UhRFskobk2PUmRMPxKYtQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: 1000
+      timeout: 25000
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: jx6s4F4uH0CfuwohjqZPJA
+      source: Store
+      addonId: 7cBKEqWpmkC1PL0WhvQOzQ
+    parameterMaps:
+    - name: host
+      value: '[[Database_Host]]'
+      direction: Input
+    - name: port
+      value: ''
+      direction: Input
+    - name: username
+      value: '[[Database_User_Name]]'
+      direction: Input
+    - name: password
+      value: '[[Database_Password]]'
+      direction: Input
+    - name: query
+      value: "SELECT \r\n        STATUS\r\nFROM \r\n        HSK_OWNER.HSK_HEADRUT \r\nWHERE\r\n        MISPAR_ZEHUT = '{{Mispar_Zehut}}' AND SUG_HEADRUT = '{{Sug_Headrut}}'  ORDER BY TAARICH_IDKUN DESC "
+      direction: Input
+    - name: queryResponse
+      value: '{{NewQueryResult}}'
+      direction: Output
+    - name: SID
+      value: '[[Database_SID]]'
+      direction: Input
+    - name: Service
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ihoSQNDyEUOvqbvjZrsbCw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: W4_VJE6pXEOqalj9R_9PWw
+      source: Store
+      addonId: 0vl75E0Mr0G5TRI1xxul-w
+    parameterMaps:
+    - name: jsonFile
+      value: '{{NewQueryResult}}'
+      direction: Input
+    - name: jsonPath
+      value: STATUS
+      direction: Input
+    - name: result
+      value: ''
+      direction: Output
+    - name: setJsonObject
+      value: ''
+      direction: Input
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: result
+      value: 19
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: http://itest20121/Hsk
+    type: Input
+  - name: Sug_Headrut
+    description: ''
+    value: ''
+    type: Input
+  - name: Semel_Mosad
+    description: ''
+    value: ''
+    type: Input
+  - name: Mispar_Zehut
+    description: ''
+    value: ''
+    type: Input
+  - name: Ad_Taarich
+    description: ''
+    value: ''
+    type: Input
+  - name: Me_Taarich
+    description: ''
+    value: ''
+    type: Input
+  - name: Shem_Headrut
+    description: ''
+    value: ''
+    type: Input
+  - name: MISPAR_HEADRUT
+    description: ''
+    value: ''
+    type: Input
+  - name: NewQueryResult
+    description: ''
+    value: ''
+    type: Input
+  - name: Shaot_Pitzul
+    description: ''
+    value: ''
+    type: Input
+  tags:
+  - HSK
+- id: Zs6DJTiu9UG_lnTQtSe5vQ
+  name: POM - מסך הוספה
+  description: תהליך הוספה כללי + הזנת נתונים
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-11T12:15:21.0000000
+  modificationDate: 2022-05-23T11:18:11.0000000
+  settings:
+    automationAssistant: true
+    appId: LS-IrTetXEa6NYhO0IQbDQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: Sr2rHPoAEEu2lp5BaJoYOQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: l-BA2ALtRkCk6sPSWnFqaA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: wjTBnYdlHEO-CK8KxOcXcQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 5F-DccPAIUKiVoDxSdXo2A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: BDPWoeh3IEKH2gmRDBMAJw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: F503YIXGfkujdNjdd6HKzg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MnjGsA7NhEWVgDwiaM7e1Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 7Lr-XAP5hk6iwyqJ6QujbA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: T5c3iaozHUySLPTOfxLdYQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 7Lr-XAP5hk6iwyqJ6QujbA
+    settings:
+      sleepTime: 1000
+      timeout: 25000
+      sleepTiming: Before
+      failureBehaviorType: Continue
+      takeScreenshotConditionType: Failure
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{Category}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dEC7sd79T0uq-GaeZmohXg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: mP39uUhWkEqt9wcY-wTnaw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{Me_Taarich}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NDcqRWJPVUubCQk6Bn53Sw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: bsIhJhzK4U2IWItQmtTrGw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SZKaVNvPzEiqiLZ8usbAJw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: bsIhJhzK4U2IWItQmtTrGw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{Ad_Taarich}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: XgwL_hoB0ESL1AA9jcAbWg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: ipKj54lWx0S-4dAMWuRhPA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QpBvn1u7YUCmLWD08V0PeQ
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Test
+    targetTestId: kXe942ASGEedzUu_XX6wgg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: Yitrat_Mahala_Text
+      value: '{{Yitrat_Mahala_Text}}'
+      direction: Input
+    - name: Yamim_Le_Headrut_Text
+      value: '{{Yamim_Le_Headrut_Text}}'
+      direction: Input
+    - name: Yamim_Le_Headrut_Number
+      value: '{{Yamim_Le_Headrut_Number}}'
+      direction: Input
+    - name: Yitrat_Mahala_Number
+      value: '{{Yitrat_Mahala_Number}}'
+      direction: Input
+    conditions:
+    - parameter: '{{Category}}'
+      type: Equals
+      invert: false
+      value: מחלה
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: http://itest20121/Hsk
+    type: Input
+  - name: Sug_Headrut
+    description: ''
+    value: ''
+    type: Input
+  - name: Category
+    description: ''
+    value: ''
+    type: Input
+  - name: Me_Taarich
+    description: ''
+    value: ''
+    type: Input
+  - name: Ad_Taarich
+    description: ''
+    value: ''
+    type: Input
+  - name: Yitrat_Mahala_Text
+    description: ''
+    value: ''
+    type: Input
+  - name: Yamim_Le_Headrut_Text
+    description: ''
+    value: ''
+    type: Input
+  - name: Yitrat_Mahala_Number
+    description: ''
+    value: ''
+    type: Input
+  - name: Yamim_Le_Headrut_Number
+    description: ''
+    value: ''
+    type: Input
+  tags:
+  - HSK
+- id: wMz0xJ3Rz0WnranVo91b7Q
+  name: POM - מסך ראשי HSK
+  description: דף הבית, מעבר לניהול היעדרויות
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-09T12:48:57.0000000
+  modificationDate: 2022-05-22T14:33:21.0000000
+  settings:
+    automationAssistant: true
+    appId: LS-IrTetXEa6NYhO0IQbDQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: xf03N1RCl0CNVTL4OW3GFw
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KUqmwl4BCkCHDZQDhOjtcw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: B3bv6sUP30SVGISVHQNEkw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 631118c0-4828-42c8-aa69-0e6107d5956d
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RIRjFhn2JkCG2TxxpLo1kQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Addon
+    elementId: Yfs3Az7iaU-9YIQnDvWSuw
+    settings:
+      sleepTime: -1
+      timeout: 25000
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: U2veSbE9E0aIfg5GFB2HtQ
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: http://itest20121/Hsk
+    type: Input
+  tags:
+  - HSK
+- id: kXe942ASGEedzUu_XX6wgg
+  name: 'בדיקת יתרת ימי מחלה '
+  description: This test was auto generated from steps of the 'POM - מסך הוספה' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-05-19T11:22:46.0000000
+  modificationDate: 2022-05-19T11:22:46.0000000
+  settings:
+    automationAssistant: true
+    appId: LS-IrTetXEa6NYhO0IQbDQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: A_3zh6JR2Uq2uNLwbMLcFg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: PH0nd-UXtkeyQ614oSqbzQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{Yitrat_Mahala_Text}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: U3ccIGnXdUm9_YpLV-91GQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: YGxmbnBIFEO9MLlJfnqlZA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{Yamim_Le_Headrut_Text}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xfw12jndh0SvSYjOM9Z6Jw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 9d8Tj6Nc5E-7JdQMyhE8kw
+      source: Store
+      addonId: D5P7e9ZMO0aPwXNrWJE9iA
+    parameterMaps:
+    - name: replacement
+      value: ''
+      direction: Input
+    - name: result
+      value: '{{Yitrat_Mahala_Text}}'
+      direction: Output
+    - name: target
+      value: ימים
+      direction: Input
+    - name: inputString
+      value: '{{Yitrat_Mahala_Text}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: CDdnor-YeEOkJ8yU8CMZ8w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: LLeKDg6_SEuy06RZKun-jg
+      source: Store
+      addonId: D5P7e9ZMO0aPwXNrWJE9iA
+    parameterMaps:
+    - name: input
+      value: '{{Yamim_Le_Headrut_Text}}'
+      direction: Input
+    - name: output
+      value: '{{Yamim_Le_Headrut_Number}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ubhHJ5u-TEOvrMrXDvyYBg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: LLeKDg6_SEuy06RZKun-jg
+      source: Store
+      addonId: D5P7e9ZMO0aPwXNrWJE9iA
+    parameterMaps:
+    - name: input
+      value: '{{Yitrat_Mahala_Text}}'
+      direction: Input
+    - name: output
+      value: '{{Yitrat_Mahala_Number}}'
+      direction: Output
+    conditions: []
+    validations:
+    - type: GTE
+      invert: false
+      field: output
+      value: '{{Yamim_Le_Headrut_Number}}'
+    contexts: []
+  parameters:
+  - name: Yitrat_Mahala_Text
+    description: ''
+    value: ''
+    type: Input
+  - name: Yamim_Le_Headrut_Text
+    description: ''
+    value: ''
+    type: Input
+  - name: Yamim_Le_Headrut_Number
+    description: ''
+    value: ''
+    type: Input
+  - name: Yitrat_Mahala_Number
+    description: ''
+    value: ''
+    type: Input
+elements:
+- id: EUHgj9SYzkGvqEETEHwEDw
+  name: היעדרויות -כפתור איתור
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#ctl00_cmdItur'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='ctl00$cmdItur']"
+    priority: 1
+  - name: XPATH
+    value: //div[5]/input[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/form/div[3]/div[2]/div/div[2]/div/div[2]/div[5]/input[1]
+    priority: 3
+- id: Yfs3Az7iaU-9YIQnDvWSuw
+  name: היעדרויות-כפתור ניהול
+  description: כפתור ניהול משוייך ללשונית היעדרויות בלבד.
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[contains(text(),'היעדרויות')]/following-sibling::ul//a[contains(@href,"/Hsk/HskNihulHeadruyot.aspx")]
+    priority: 0
+- id: l-BA2ALtRkCk6sPSWnFqaA
+  name: היעדרויות-כפתור הוספה
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTQ
+    name: Table
+    source: System
+  locators:
+  - name: XPATH
+    value: //*[@id="ctl00_Main_cmdInsert"]
+    priority: 0
+- id: KBDM28G1wUOQrKqWOASZoQ
+  name: היעדרויות-סמל מוסד
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@id='ctl00_txtSemelMosad']
+    priority: 0
+- id: QGweViXJEkG2wEUINCA8aw
+  name: היעדרויות-מספר זהות
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@id='ctl00_txtZehut']
+    priority: 0
+- id: 5gZ2vPifnUKTrJEcl73JDg
+  name: היעדרויות-שורת תז
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[@id='ctl00_divZehutLine']
+    priority: 0
+- id: 5F-DccPAIUKiVoDxSdXo2A
+  name: היעדרויות - תפריט סוגי היעדרות
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //select[@id='ctl00_Main_cboSugHeadrut']
+    priority: 0
+- id: F503YIXGfkujdNjdd6HKzg
+  name: היעדרויות - סוג העידרות
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //select[@id='ctl00_Main_cboSugHeadrut']//option[@value='{{Sug_Headrut}}']
+    priority: 0
+- id: mP39uUhWkEqt9wcY-wTnaw
+  name: היעדרויות - תאריך התחלה
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@id='ctl00_Main_dtMeTaarich']
+    priority: 0
+- id: bsIhJhzK4U2IWItQmtTrGw
+  name: היעדרויות - תאריך סיום
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@id='ctl00_Main_dtAdTaarich']
+    priority: 0
+- id: 1lyvVPmLmEWuAvDjicDpuw
+  name: היעדרויות - כפתור שמירה
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@id='ctl00_Main_cmdSave']
+    priority: 0
+- id: bqhSBjDJekiPVtEfYrj_7Q
+  name: היעדרויות - כפתור מחיקה
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@id='ctl00_Main_cmdDelete']
+    priority: 0
+- id: VKqZ-9woW02gCZI2iJMU5A
+  name: היעדרויות - כפתור אישור מחיקה
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[@id='dialog-contentfooter']//input[@id='btn0']
+    priority: 0
+- id: B3bv6sUP30SVGISVHQNEkw
+  name: 'לשונית היעדרויות '
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //span[. = '
+      					היעדרויות']
+    priority: 0
+  - name: XPATH
+    value: //div/ul/li[4]/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/form/div[3]/div[1]/div[4]/div[1]/div[2]/div/ul/li[4]/span
+    priority: 2
+- id: 7Lr-XAP5hk6iwyqJ6QujbA
+  name: 'קטגוריית היעדרות '
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[@id='ctl00_Main_lblCatogory']
+    priority: 0
+- id: ipKj54lWx0S-4dAMWuRhPA
+  name: שורת מספר ימים
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[@id='ctl00_Main_Label1']
+    priority: 0
+- id: zJ_o-uMPWE-BrXOA6Knt8g
+  name: CheckBox_Sug_Headrut
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr//td[contains(text(), '{{Sug_Headrut}}')]/preceding-sibling::td/input
+    priority: 0
+- id: rX9Ad3H5YkmjTBxDrV1YcA
+  name: ChekboxByTypeHeadrut
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr//td[contains(text(), '{{Semel_Mosad}}')]/preceding-sibling::td/input
+    priority: 0
+- id: nxfaRhEu2EejAClrGuFUGQ
+  name: היעדרויות - כפתור אישור הודעת שגיאה
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@id='btnok']
+    priority: 0
+- id: qOjcjOFBeUaq0S8jmUuiAg
+  name: תפריט סוגי פיצול
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //select[@id='ctl00_Main_cboMeafyeneyPitsul']
+    priority: 0
+- id: UGXhP7g6Rk-qE_XRN9yzlA
+  name: סוג פיצול
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //select[@id='ctl00_Main_cboMeafyeneyPitsul']//option[@value='5270']
+    priority: 0
+- id: -RyXyMoo4kygAR9wldZUGw
+  name: היעדרויות פיצול - שעות ליום
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@name='ctl00$Main$txtShaotLeyom']
+    priority: 0
+- id: q3Cq56PUS0OoX_xsiHFd2Q
+  name: היעדרויות שורת הערה
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[@id='ctl00_lblShortMsgLine']
+    priority: 0
+- id: YWaJ5UUbQ02VXtywfz0SEw
+  name: היעדרויות - חלון שגיאה
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[@id='dialog']
+    priority: 0
+- id: PH0nd-UXtkeyQ614oSqbzQ
+  name: היעדרויות - יתרת מחלה
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[@id='ctl00_Main_lnkItratMachalaDoch']
+    priority: 0
+- id: YGxmbnBIFEO9MLlJfnqlZA
+  name: מספר ימי היעדרות
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[@id='ctl00_Main_LblMisparYamim']
+    priority: 0
+projectParameters:
+- id: Jcfb5wc1JEGp7gs3f350dQ
+  name: ExpectedMessage
+  description: הודעה שמירת היעדרות
+  value: פעולת העדכון עברה בהצלחה
+- id: aW8Ibeusmk6-V6cTdC05uA
+  name: Database_Host
+  description: ''
+  value: oralnxtest
+- id: oeIctjSXB06zEJYz2nZPRQ
+  name: Database_User_Name
+  description: ''
+  value: KLALI_QA_UPD
+- id: qVrSeyC10UGkS5V7DsDxgA
+  name: Database_Password
+  description: ''
+- id: PsuYgQDpZEGd83vqG_HPXQ
+  name: Database_SID
+  description: ''
+- id: Gin3MPF6MUiz29b6sP7tYw
+  name: Warning_Msg_Idkun
+  description: ''
+  value: פעולת העדכון עברה בהצלחה
+addons:
+- id: 7cBKEqWpmkC1PL0WhvQOzQ
+  source: Store
+  version: 0.6
+  actions:
+  - id: jx6s4F4uH0CfuwohjqZPJA
+    name: Send SQL Query (Oracle Database)
+    description: Send an SQL query to an Oracle Database
+    className: io.testproject.Action.SendSQLQueryAction
+  minSdkLevel: 2
+  minSdkVersion: 0.63.0
+  sdkGeneration: 1
+  language: Java
+  hash: 0E650EBD82392FCCB5193593CCCD5BFED2742249C7AFD4B2A59174A6553A7E1F
+- id: m9XGecbZqU62EXYlC04AOQ
+  source: Store
+  version: 1.2
+  actions:
+  - id: tlxDTzMxe0eErx2PMkql2g
+    name: Scroll to element
+    description: Scrolls to an element with defined amount of swipes
+    className: io.testproject.addon.scrollelement.ScrollToElement
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 9515D3EA1A72962193B9A741936156612D00749D066C103B8C535043505EC1D9
+- id: D5P7e9ZMO0aPwXNrWJE9iA
+  source: Store
+  version: 2.10
+  actions:
+  - id: 9d8Tj6Nc5E-7JdQMyhE8kw
+    name: Replace substrings
+    description: Replace all occurrences of {{target}} with {{replacement}} in {{inputString}}
+    className: ReplaceSubstrings
+  - id: LLeKDg6_SEuy06RZKun-jg
+    name: Convert String To Number
+    description: Remove none numeric characters from {{input}}
+    className: ConvertStringToNumber
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 6824793E7A01EB296E01FBD3040191C826B9C9F194842B9DBCFA0E766EBF8F1F
+- id: 0vl75E0Mr0G5TRI1xxul-w
+  source: Store
+  version: 1.7
+  actions:
+  - id: W4_VJE6pXEOqalj9R_9PWw
+    name: Get value from JSON using JsonPath
+    description: Gets value in JSON using JsonPath syntax
+    className: actions.GetValueFromJSON
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 5E9FAF56E3FFEB61BF1059DFE78B637DA1FBCCE0641A4B7082018D01931A2542
+- id: inW2AJJ04ku45E9-RN2zqA
+  source: Store
+  version: 2.10
+  actions:
+  - id: U2veSbE9E0aIfg5GFB2HtQ
+    name: Click if visible
+    description: Click {{element}} if it's visible
+    className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
